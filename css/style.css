@@ -4,6 +4,71 @@
 }
 
 #navbar-container {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+#main-navbar ul {
+  position: relative;
+  left: 50%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-navbar ul li {
+  position: relative;
+  right: 50%;
+  float: left;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: overline underline;
+}
+
+#sidebar {
+  position: fixed;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background-color: red;
+}
+
+#sidebar ul {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbar-container {
   float: left;
   width: 100%;
   position: relative;
